@@ -1,0 +1,79 @@
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+    background-image: url('hand-painted-watercolor-pastel-sky-background_23-2148902771.avif');
+    background-size: cover;
+    background-position: center;
+    font-family: Arial, sans-serif;
+  }
+  
+  .container {
+    text-align: center;
+    background-color: #AEC3AE;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 1);
+  }
+  
+  h2 {
+    margin-top: 0;
+    color: #333333;
+  }
+  
+  .form-group {
+    margin-bottom: 15px;
+  }
+  
+  label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+    color: #555555;
+  }
+  
+  input[type="text"],
+  input[type="password"] {
+    width: 95%;
+    padding: 5px;
+    border: 3px solid rgb(158, 69, 69);
+    border-radius: 3px;
+    transition: border-color 0.3s;
+  }
+  
+  input[type="text"]:focus,
+  input[type="password"]:focus {
+    outline: none;
+    border-color: seagreen;
+  }
+  
+  .btn {
+    display: inline-block;
+    background-color: rgb(135, 96, 24);
+    color: #ffffff;
+    padding: 8px 20px;
+    border-radius: 3px;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .btn:hover {
+    background-color: #0c4887;
+  }
+  
+  .message {
+    margin-top: 15px;
+    color: #777777;
+  }
+  
+  .message a {
+    color: #4784c5;
+    text-decoration: none;
+  }
+  
+  .message a:hover {
+    text-decoration: underline;
+  }
